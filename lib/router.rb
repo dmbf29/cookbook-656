@@ -22,10 +22,12 @@ class Router
     case action
     when 1 then @controller.list
     when 2 then @controller.create
-    when 3 then @controller.destroy
-    when 4 then stop
+    when 3 then @controller.import
+    when 4 then @controller.mark_as_done
+    when 5 then @controller.destroy
+    when 0 then stop
     else
-      puts "Please press 1, 2, 3 or 4"
+      puts "Please press 1, 2, 3, 4, 5 or 0"
     end
   end
 
@@ -38,7 +40,9 @@ class Router
     puts "What do you want to do next?"
     puts "1 - List all recipes"
     puts "2 - Create a new recipe"
-    puts "3 - Destroy a recipe"
-    puts "4 - Stop and exit the program"
+    puts "3 - Import a recipe from AllRecipes"
+    puts "4 - Mark recipe as done"
+    puts "5 - Destroy a recipe"
+    puts "0 - Stop and exit the program"
   end
 end

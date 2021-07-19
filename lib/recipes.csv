@@ -1,2 +1,8 @@
-Baked beans,English breakfast
-Boeuf bourguignon,Hearty red wine beef stew
+name,description,rating,done,prep_time
+Baked beans,English breakfast,,false,
+Boeuf bourguignon,Hearty red wine beef stew,,true,
+Fresh Strawberry Bread,"If you like a moist fruit bread, this fresh strawberry bread is for you.",,false,
+spaghetti,pasta,5,false,
+Grilled Chocolate Sandwich,"This is JUST like making a grilled cheese, but you are using chocolate! Created this while craving chocolate and carbs.",5,false,10 mins
+Easy Blended Mocha,The delicious and simplest blended mocha I ever made before!,5,false,5 mins
+Grilled Chocolate Sandwich,"This is JUST like making a grilled cheese, but you are using chocolate! Created this while craving chocolate and carbs.",5,false,10 mins 10 mins 20 mins 1 1 sandwich
